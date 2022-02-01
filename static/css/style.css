@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,800;1,900&display=swap");
+* {
+  font-family: "Nunito Sans", sans-serif !important;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.jumbotron_background {
+  overflow: hidden;
+  padding: 0;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/jumb_back.jpg") !important;
+  filter: brightness(120%) contrast(85%) grayscale(16%);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.card .card_img {
+  height: 250px !important;
+  object-fit: cover;
+}
+.card .card-price {
+  font-weight: bold;
+}
+
+.rub {
+  line-height: 5px;
+  width: 0.4em;
+  border-bottom: 1px solid #000;
+  display: inline-block;
+}
+
+.product-button__block {
+  margin-top: 40px;
+}
+.product-button__block .product-button {
+  padding: 10px 70px;
+}
+.product-button__block .product-button:hover {
+  border-color: #1a1e21 !important;
+}
+
+.best-offers {
+  margin-top: 128px;
+  margin-bottom: 85px;
+  display: flex;
+  justify-content: center;
+}
+
+.best-offers__heading {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.subscribe-container {
+  margin-top: 90px;
+  padding: 0 50px;
+}
+
+.subscribe-container__form {
+  background: #468b45ed url(../img/klipartz.png) no-repeat 95% 0;
+  text-align: center;
+  height: 320px;
+  border-radius: 15px;
+}
+
+.subscribe-form {
+  height: 100%;
+}
+
+.subscribe-form__btn:hover {
+  border-color: #1a1e21 !important;
+}
+
+.subscribe-container__heading {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.instagram-container {
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+.instagram-container .heading {
+  text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.instagram-container__cards {
+  margin-bottom: 130px;
+}
+
+/*# sourceMappingURL=style.css.map */

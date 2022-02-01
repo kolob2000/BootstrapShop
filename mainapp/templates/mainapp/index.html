@@ -1,0 +1,69 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+
+{% block content %}
+    <div class="best-offers">
+        <h1 class="best-offers__heading">Наши лучшие предложения</h1>
+    </div>
+    <div class="album py-5">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-4">
+                {% for product in products %}
+                    <div class="col ">
+                        <div class="card shadow-sm">
+                            <img src="{{ product.image.url }}" alt="" class="card_img">
+
+                            <div class="card-body">
+                                <h5 class="card-title">{{ product.title }}</h5>
+                                <h6 class="card-price">{{ product.price }} &#8381;</h6>
+                                <p class="card-text"></p>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="btn-group">
+                                        <a href="#" class="btn btn-outline-dark">Добавить в корзину</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+            </div>
+            <div class="row justify-content-center product-button__block">
+                <a href="" class="col-auto btn btn-dark btn-outline-light product-button">В каталог</a>
+            </div>
+        </div>
+    </div>
+    <div class="container subscribe-container ">
+        <div class="container subscribe-container__form">
+            <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-1 g-4 justify-content-center align-content-center subscribe-form">
+                <h1 class="subscribe-container__heading col-12">Подписаться на наши новости</h1>
+                <div class="col-lg-6  ">
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Ваша электронная почта..."
+                               aria-label="Recipient's username"
+                               aria-describedby="button-addon2">
+                        <button class="btn btn-outline-light btn-dark btn subscribe-form__btn" type="button"
+                                id="button-addon2">
+                            Подписаться
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container instagram-container__cards d-none d-lg-block">
+        <div class="col-12 instagram-container"><h1 class="heading">Мы в Instagram</h1></div>
+        <p class="instagram-container__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eu, tempor, accu
+            msan sit amet nunc cursus. Nec tristique at in erat lectus</p>
+        <div class=" row row-cols-5 g-0" height="230px">
+            {% for insta_image in insta_images %}
+                <div class="col">
+                    <img src="{{ insta_image.image.url }}" class="card-img-top" alt="..." height="230" width="20%">
+                </div>
+
+            {% endfor %}
+
+
+        </div>
+    </div>
+{% endblock content %}
+

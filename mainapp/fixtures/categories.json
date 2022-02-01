@@ -1,0 +1,38 @@
+[
+  {
+    "model": "mainapp.category",
+    "pk": 1,
+    "fields": {
+      "title": "Кактусы",
+      "description": "Здесь должно быть описание...",
+      "slug": "kaktusi"
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 2,
+    "fields": {
+      "title": "Папоротники",
+      "description": "Здесь должно быть описание...",
+      "slug": "paparotniki"
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 3,
+    "fields": {
+      "title": "Пальмы",
+      "description": "Здесь должно быть описание...",
+      "slug": "palmi"
+    }
+  },
+  {
+    "model": "mainapp.category",
+    "pk": 4,
+    "fields": {
+      "title": "Бонсай",
+      "description": "Здесь должно быть описание...",
+      "slug": "bonsai"
+    }
+  }
+]

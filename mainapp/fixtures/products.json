@@ -1,0 +1,182 @@
+[
+  {
+    "model": "mainapp.product",
+    "pk": 1,
+    "fields": {
+      "title": "Опунция",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "2900.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 1,
+      "slug": "opunsia"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 2,
+    "fields": {
+      "title": "Апорокактус",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "3300.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 1,
+      "slug": "aporokaktus"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 3,
+    "fields": {
+      "title": "Нотокактус",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "1500.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 1,
+      "slug": "notokaktus"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 4,
+    "fields": {
+      "title": "Платицериум",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "3400.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 2,
+      "slug": "platicerium"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 5,
+    "fields": {
+      "title": "Птерис",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "2200.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 2,
+      "slug": "pteris"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 6,
+    "fields": {
+      "title": "Асплениум",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "1900.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 2,
+      "slug": "asplenium"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 7,
+    "fields": {
+      "title": "Арека",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "1500.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 3,
+      "slug": "areka"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 8,
+    "fields": {
+      "title": "Хамеропс",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "3500.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 3,
+      "slug": "hamerops"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 9,
+    "fields": {
+      "title": "Рапис",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "2500.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 3,
+      "slug": "rapis"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 10,
+    "fields": {
+      "title": "Тамаринд",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "4600.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 4,
+      "slug": "tamarind"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 11,
+    "fields": {
+      "title": "Жакаранда",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "5000.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 4,
+      "slug": "jakaranda"
+    }
+  },
+  {
+    "model": "mainapp.product",
+    "pk": 12,
+    "fields": {
+      "title": "Лептоспермум",
+      "image": "media/pexels-julia-volk-5273290.jpg",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias animi at culpa cum, cumque eos esse ex id illo necessitatibus nulla numquam officia perferendis placeat porro quae quasi quisquam quo, sapiente soluta tenetur totam vitae? Consequatur corporis cupiditate delectus doloribus ea harum laboriosam libero mollitia nam, quo, quod tenetur voluptatibus!",
+      "price": "4000.00",
+      "old_price": "0.00",
+      "in_stock": true,
+      "quantity": 50,
+      "category": 4,
+      "slug": "leptospermum"
+    }
+  }
+]
