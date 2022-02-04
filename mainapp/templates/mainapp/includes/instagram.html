@@ -1,0 +1,17 @@
+{% load static %}
+<div class="container instagram-container__cards d-none d-lg-block">
+    <div class="col-12 instagram-container"><h1 class="heading">Мы в Instagram</h1></div>
+    <div class="row  align-content-center"><p class="offset-3 col-6 instagram-container__text">Таким образом начало
+        повседневной работы по формированию позиции способствует подготовки и реализации модели развития. Равным
+        образом постоянный количественный рост и сфера нашей активности.</p></div>
+    <div class=" row row-cols-5 g-0" height="230px">
+        {% for insta_image in insta_images %}
+            <div class="col">
+                <img src="{{ insta_image.image.url }}" class="card-img-top" alt="..." height="230" width="20%">
+            </div>
+
+        {% endfor %}
+
+
+    </div>
+</div>

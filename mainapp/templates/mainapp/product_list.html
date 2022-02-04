@@ -1,0 +1,22 @@
+{% extends 'mainapp/base.html' %}
+
+{% block content %}
+    <div class="container">
+        <form method="get" class="row"
+              action="{% if title == 'Продукты' %}{% url 'mainapp:product' %} {% else %} {% url 'main:category' product_list.0.category.slug %}{% endif %}">
+            <div class="col-2">
+                <select class="form-select" name="price" aria-label="Default select example">
+                    <option selected>Сортировка</option>
+                    <option value="1">Дешевле</option>
+                    <option value="2">Дороже</option>
+                </select>
+            </div>
+            <div class="col-2">
+                <button type="submit" class="btn btn-dark btn-outline-light subscribe-form__btn">применить</button>
+            </div>
+        </form>
+    </div>
+    {% include 'mainapp/includes/catalog.html' %}
+
+
+{% endblock %}
