@@ -1,0 +1,47 @@
+[
+  {
+    "model": "mainapp.instagram",
+    "pk": 1,
+    "fields": {
+      "image": "media/alis-po-IdVNRv-5wJo-unsplash_1.png",
+      "url": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.instagram",
+    "pk": 2,
+    "fields": {
+      "image": "media/Frame_235.png",
+      "url": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.instagram",
+    "pk": 3,
+    "fields": {
+      "image": "media/freddie-marriage-UcfKYTan-LU-unsplash_1.png",
+      "url": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.instagram",
+    "pk": 4,
+    "fields": {
+      "image": "media/remi-muller-CZxraRv02-A-unsplash_1.png",
+      "url": "",
+      "is_active": true
+    }
+  },
+  {
+    "model": "mainapp.instagram",
+    "pk": 5,
+    "fields": {
+      "image": "media/stephanie-harvey-vHkj3fX9wCk-unsplash_1.png",
+      "url": "",
+      "is_active": true
+    }
+  }
+]
