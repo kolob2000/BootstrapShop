@@ -35,9 +35,19 @@
 
         <div class="collapse navbar-collapse order-4 order-md-4" id="navbar-right">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="page-about.html">О&nbsp;нас</a>
+                {#                ############################}
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown02"
+                       data-bs-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">О нас</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown02">
+                        <a class="dropdown-item"
+                           href="{% url 'main:privacy' %}">Политика конфидициальности</a>
+                        <a class="dropdown-item"
+                           href="{% url 'main:delete_privacy' %}">Запрос на удаление данных</a>
+                    </div>
                 </li>
+                {#                ###############################}
                 <li class="nav-item">
                     <a class="nav-link" href="{% url 'admin:index' %}">Админка</a>
                 </li>

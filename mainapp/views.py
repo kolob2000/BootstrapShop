@@ -1,5 +1,12 @@
+from django.contrib import messages
+from django.core.mail import send_mail
+from django.http import HttpResponseRedirect
 from django.shortcuts import render
+from django.urls import reverse
 from django.views.generic import ListView
+
+from BootstrapShop import settings
+from .forms import PrivacyRemoveForm
 from .models import Product, Category, Instagram
 
 
@@ -33,3 +40,30 @@ class ProductListView(ListView):
             return query
         else:
             return query.order_by('price' if int(self.request.GET.get('price')) == 1 else '-price')
+
+
+def privacy(request):
+    return render(request, 'mainapp/privacy.html', context={'title': 'Политика конфидициальности'})
+
+
+def delete_privacy(request):
+    if request.method == 'POST':
+        form = PrivacyRemoveForm(request.POST)
+        if form.is_valid():
+            message = form.cleaned_data['message']
+            from_email = form.cleaned_data['email']
+            theme = 'Запрос на удаление данных'
+            mail = send_mail(theme, message + " " + from_email, settings.EMAIL_HOST_USER, (settings.EMAIL_HOST_USER,),
+                             fail_silently=False)
+            if not mail:
+                messages.error(request, 'Ошибка отправки. Попробуйте снова.')
+            else:
+                messages.success(request, 'Сообщение отправлено. Ожидайте ответ в течение 10 дней.')
+                return HttpResponseRedirect(reverse('main:delete_privacy'))
+    else:
+        form = PrivacyRemoveForm()
+    context = {
+        'title': 'Запрос на удаление данных',
+        'form': form
+    }
+    return render(request, 'delete_privacy.html', context=context)

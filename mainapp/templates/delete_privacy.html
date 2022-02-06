@@ -1,0 +1,28 @@
+{% extends 'mainapp/base.html' %}
+{% load static %}
+{% block content %}
+
+
+    <div class="container">
+        <h1 style="text-align: center; margin-top: 100px; margin-bottom: 100px;">Форма запроса на удаление данных</h1>
+        <div class="row-cols-1 d-flex justify-content-center mb-5">
+            <div class="col-12 text-center"><h4>
+                Если по каким-либо соображениям вы считаете, что некоторые данные нарушают
+                вашу конфидицильность и нарушают ваши права, и вы считаете, что они должны быть удалены с нашего
+                ресурса,
+                составьте запрос в форме ниже. Результат по вашему запросу вы получите в течение 10 рабочих дней на
+                электронную
+                почту
+                указанную в запросе.
+            </h4>
+            </div>
+        </div>
+        <form  method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="col-4">
+                <button type="submit" class="btn btn-dark btn-outline-light subscribe-form__btn">Отправить запрос</button>
+            </div>
+        </form>
+    </div>
+{% endblock %}
